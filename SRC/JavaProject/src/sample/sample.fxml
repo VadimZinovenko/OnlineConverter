@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="476.0" prefWidth="450.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <children>
+      <AnchorPane fx:id="labelcur1" prefHeight="467.0" prefWidth="445.0" style="-fx-background-color: green;">
+         <children>
+            <Label layoutX="114.0" layoutY="100.0" text="1 USD" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Label>
+            <Label layoutX="114.0" layoutY="147.0" text="1 EUR" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Label>
+            <Label layoutX="115.0" layoutY="192.0" text="1000 KZT" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Label>
+            <Label layoutX="116.0" layoutY="237.0" text="10 PLN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Label>
+            <Button fx:id="Refresh" layoutX="178.0" layoutY="416.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="92.0" style="-fx-background-color: yellow;" text="Обновить" />
+            <Label layoutX="280.0" layoutY="101.0" />
+            <Label layoutX="305.0" layoutY="100.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font></Label>
+            <ImageView fitHeight="28.0" fitWidth="50.0" layoutX="50.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="45.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/albert_450mm_chrome_heated_towel_rail3_912.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="53.0" layoutX="45.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/EU.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="45.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/kazahstan-cr-600x450.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="47.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/Poland_flag_ml.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="48.0" layoutX="45.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="46.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/58500129_dec4_4e13_a069_a81f39d0bbb5.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="115.0" layoutY="283.0" text="100 RUB" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="48.0" layoutX="47.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/ukrainian-flag-medium.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="113.0" layoutY="330.0" text="100 UAH" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="205.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="textField1" layoutX="12.0" layoutY="370.0" prefHeight="31.0" prefWidth="116.0" promptText="Введите сумму">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="textField2" layoutX="238.0" layoutY="370.0" prefHeight="31.0" prefWidth="116.0" promptText="Введите сумму">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <AnchorPane layoutX="-1.0" layoutY="-5.0" prefHeight="88.0" prefWidth="450.0" style="-fx-background-color: red;">
+               <children>
+                  <Label layoutX="-1.0" layoutY="-1.0" prefHeight="89.0" prefWidth="450.0" text="  Конвертер валют">
+                     <font>
+                        <Font name="System Italic" size="47.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="209.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="305.0" layoutY="149.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="192.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="239.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="281.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="331.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1" layoutX="255.0" layoutY="100.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" layoutX="255.0" layoutY="149.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" layoutX="255.0" layoutY="192.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label4" layoutX="255.0" layoutY="239.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label5" layoutX="255.0" layoutY="281.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label6" layoutX="255.0" layoutY="331.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <MenuButton fx:id="menu1" layoutX="168.0" layoutY="370.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#BLR" text="BLR" />
+                <MenuItem mnemonicParsing="false" onAction="#USD" text="USD" />
+                  <MenuItem mnemonicParsing="false" onAction="#KZT" text="KZT" />
+                  <MenuItem mnemonicParsing="false" onAction="#EUR" text="EUR" />
+                  <MenuItem mnemonicParsing="false" onAction="#PLN" text="PLN" />
+                  <MenuItem mnemonicParsing="false" onAction="#UAH" text="UAH" />
+                  <MenuItem mnemonicParsing="false" onAction="#RUB" text="RUB" />
+              </items>
+            </MenuButton>
+            <MenuButton fx:id="menu2" layoutX="394.0" layoutY="370.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="40.0">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#BLR1" text="BLR" />
+                <MenuItem mnemonicParsing="false" onAction="#USD1" text="USD" />
+                  <MenuItem mnemonicParsing="false" onAction="#KZT1" text="KZT" />
+                  <MenuItem mnemonicParsing="false" onAction="#EUR1" text="EUR" />
+                  <MenuItem mnemonicParsing="false" onAction="#PLN1" text="PLN" />
+                  <MenuItem mnemonicParsing="false" onAction="#UAH1" text="UAH" />
+                  <MenuItem mnemonicParsing="false" onAction="#RUB1" text="RUB" />
+              </items>
+            </MenuButton>
+            <TextField layoutX="126.0" layoutY="370.0" prefHeight="31.0" prefWidth="45.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="labelcur11" prefHeight="467.0" prefWidth="445.0" style="-fx-background-color: green;">
+         <children>
+            <Label layoutX="114.0" layoutY="100.0" text="1 USD" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="114.0" layoutY="147.0" text="1 EUR" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="115.0" layoutY="192.0" text="1000 KZT" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="237.0" text="10 PLN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="Refresh" layoutX="178.0" layoutY="416.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="92.0" style="-fx-background-color: yellow;" text="Обновить" />
+            <Label layoutX="280.0" layoutY="101.0" />
+            <Label layoutX="305.0" layoutY="100.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="28.0" fitWidth="50.0" layoutX="50.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="45.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/albert_450mm_chrome_heated_towel_rail3_912.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="53.0" layoutX="45.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/EU.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="45.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/kazahstan-cr-600x450.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="47.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/Poland_flag_ml.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="48.0" layoutX="45.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="46.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/58500129_dec4_4e13_a069_a81f39d0bbb5.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="115.0" layoutY="283.0" text="100 RUB" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="207.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="48.0" layoutX="47.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/ukrainian-flag-medium.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="113.0" layoutY="330.0" text="100 UAH" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="205.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="48.0" layoutX="366.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/000211_72754(3).jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="textField1" layoutX="12.0" layoutY="370.0" prefHeight="31.0" prefWidth="116.0" promptText="Введите сумму">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="textField2" layoutX="238.0" layoutY="370.0" prefHeight="31.0" prefWidth="116.0" promptText="Введите сумму">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <AnchorPane layoutX="-1.0" layoutY="-5.0" prefHeight="88.0" prefWidth="450.0" style="-fx-background-color: red;">
+               <children>
+                  <Label layoutX="-1.0" layoutY="-1.0" prefHeight="89.0" prefWidth="450.0" text="  Конвертер валют">
+                     <font>
+                        <Font name="System Italic" size="47.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="31.0" fitWidth="50.0" layoutX="209.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/change.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="305.0" layoutY="149.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="192.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="239.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="281.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="331.0" prefHeight="21.0" prefWidth="48.0" text=" BYN" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1" layoutX="255.0" layoutY="100.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" layoutX="255.0" layoutY="149.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" layoutX="255.0" layoutY="192.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label4" layoutX="255.0" layoutY="239.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label5" layoutX="255.0" layoutY="281.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="label6" layoutX="255.0" layoutY="331.0" prefHeight="21.0" prefWidth="64.0" text="22.458" textFill="YELLOW">
+               <font>
+                  <Font name="Times New Roman" size="19.0" />
+               </font>
+            </Label>
+            <MenuButton fx:id="menu1" layoutX="168.0" layoutY="370.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="31.0">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#BLR" text="BLR" />
+                  <MenuItem mnemonicParsing="false" onAction="#USD" text="USD" />
+                  <MenuItem mnemonicParsing="false" onAction="#KZT" text="KZT" />
+                  <MenuItem mnemonicParsing="false" onAction="#EUR" text="EUR" />
+                  <MenuItem mnemonicParsing="false" onAction="#PLN" text="PLN" />
+                  <MenuItem mnemonicParsing="false" onAction="#UAH" text="UAH" />
+                  <MenuItem mnemonicParsing="false" onAction="#RUB" text="RUB" />
+               </items>
+            </MenuButton>
+            <MenuButton fx:id="menu2" layoutX="394.0" layoutY="370.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="40.0">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#BLR1" text="BLR" />
+                  <MenuItem mnemonicParsing="false" onAction="#USD1" text="USD" />
+                  <MenuItem mnemonicParsing="false" onAction="#KZT1" text="KZT" />
+                  <MenuItem mnemonicParsing="false" onAction="#EUR1" text="EUR" />
+                  <MenuItem mnemonicParsing="false" onAction="#PLN1" text="PLN" />
+                  <MenuItem mnemonicParsing="false" onAction="#UAH1" text="UAH" />
+                  <MenuItem mnemonicParsing="false" onAction="#RUB1" text="RUB" />
+               </items>
+            </MenuButton>
+            <TextField fx:id="textcur" layoutX="126.0" layoutY="370.0" prefHeight="31.0" prefWidth="45.0">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="textcurr" layoutX="354.0" layoutY="370.0" prefHeight="31.0" prefWidth="45.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
